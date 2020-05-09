@@ -1,10 +1,17 @@
 #teste{
     background-image: url("bg.png");
     background-repeat: no-repeat;
-    background-size: 100% 35%;
-    background-attachment: fixed;  
+    background-size: 100% 18%; 
     background-color: #1cade4;
-    /*font-family: ;*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#teste1{
+    background-image: url("adm1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 20%;
+    background-color: #1cade4;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #home{
@@ -26,4 +33,22 @@
 #texto{
     text-align: center;
     color: whitesmoke;
+}
+
+#texto1{
+    text-align: left;
+    color: whitesmoke;
+    text-decoration: none ;
+}
+
+#rodape{
+    text-align: center;
+    font-size: x-small;
+    color: azure;
+}
+
+#social{
+    text-align: left;
+    color: azure;
+    font-size: smaller;
 }
