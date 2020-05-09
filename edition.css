@@ -1,0 +1,29 @@
+#teste{
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 35%;
+    background-attachment: fixed;  
+    background-color: #1cade4;
+    /*font-family: ;*/
+}
+
+#home{
+    color: whitesmoke;
+}
+
+#cursos{
+    opacity: 0.8;
+    table-layout: fixed;
+    background-blend-mode: screen;
+}
+
+#video{
+    width: 1050px;
+    height: 300px;   
+}
+
+
+#texto{
+    text-align: center;
+    color: whitesmoke;
+}
