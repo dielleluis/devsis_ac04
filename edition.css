@@ -14,6 +14,38 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+#teste2{
+    background-image: url("econo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 20%;
+    background-color: #1cade4;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#teste3{
+    background-image: url("estat.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 20%;
+    background-color: #1cade4;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#teste4{
+    background-image: url("cont.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 20%;
+    background-color: #1cade4;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#teste5{
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 20%;
+    background-color: #1cade4;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 #home{
     color: whitesmoke;
 }
@@ -51,4 +83,10 @@
     text-align: left;
     color: azure;
     font-size: smaller;
+}
+
+#formulario{
+    text-align: left;
+    color: whitesmoke;
+    text-decoration: none ;
 }
