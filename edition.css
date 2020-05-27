@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-size: 100% 18%; 
     background-color: #1cade4;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #teste1{
@@ -11,41 +11,36 @@
     background-repeat: no-repeat;
     background-size: 100% 20%;
     background-color: #1cade4;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 #teste2{
     background-image: url("econo.jpg");
     background-repeat: no-repeat;
     background-size: 100% 20%;
     background-color: #1cade4;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 #teste3{
     background-image: url("estat.jpg");
     background-repeat: no-repeat;
     background-size: 100% 20%;
     background-color: #1cade4;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 #teste4{
     background-image: url("cont.jpg");
     background-repeat: no-repeat;
     background-size: 100% 20%;
     background-color: #1cade4;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 #teste5{
     background-image: url("bg.png");
     background-repeat: no-repeat;
     background-size: 100% 20%;
     background-color: #1cade4;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 #home{
     color: whitesmoke;
 }
@@ -64,29 +59,29 @@
 
 #texto{
     text-align: center;
-    color: whitesmoke;
+    color: black;
 }
 
 #texto1{
     text-align: left;
-    color: whitesmoke;
+    color: black;
     text-decoration: none ;
 }
 
 #rodape{
     text-align: center;
     font-size: x-small;
-    color: azure;
+    color: black;
 }
 
 #social{
     text-align: left;
-    color: azure;
+    color: black;
     font-size: smaller;
 }
 
 #formulario{
     text-align: left;
-    color: whitesmoke;
+    color: black;
     text-decoration: none ;
 }
