@@ -85,3 +85,11 @@
     color: black;
     text-decoration: none ;
 }
+
+/*Inserir este valores do comentário no edition.css como uma div*/
+#chart_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center"
+}

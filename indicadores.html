@@ -1,0 +1,112 @@
+  
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Faculdade Inovadora</title>
+    <script rel= "" type="text/javascript" src="javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="edition.css" media="screen">
+    <link rel="icon" type="imagem/png" href="logo.png"/>
+</head>
+<body id=teste> 
+
+       <th><a href="index.html"><img src="logo.png" alt="Imagem Processando" width="500" height="200"></th></a>
+
+    <table id="cursos">
+     <tr>
+     <td>                             
+     <td><a href="curso1.html"><img src="adm.png" alt="Imagem Processando" width="300" height="100"></a></td>
+     <td>      </td>                  
+     <td>      </td>                     
+     <td><a href="curso2.html"><img src="econo.png" alt="Imagem Processando" width="300" height="100"></a></td>
+     <td>     </td>                  
+     <td>     </td>                                  
+     <td><a href="curso3.html"><img src="estatistica.png" alt="Imagem Processando" width="300" height="100"></a></td> 
+     <td>     </td>                  
+     <td>     </td>                                  
+     <td><a href="curso4.html"><img src="cc.png" alt="Imagem Processando" width="300" height="100"></a></td>
+     <td>     </td>                  
+     <td>     </td>                                 
+     <td><a href="form.html"><img src="contato.png" alt="Imagem Processando" width="300" height="100"></a></td>
+     <td>     </td>                  
+     <td>     </td>                                 
+     <td><a href="indicadores.html"><img src="indicadores.png" alt="Imagem Processando" width="300" height="100"></a></td>  
+    </tr>
+  
+    </table>
+
+    <br>
+    <br>
+    <br>
+       <div id="texto">
+        <h2>Faculdade Inovadora</h2>
+        <h4>Veja abaixo nossos graficos e inidicadores para tomada de decisões em sua vida:</h4>
+
+
+    <!--// Load the Visualization API and the piechart package.-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript"> 
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart'],'language': 'pt-br'});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+     //Função q carrega os dados e desenha o grafico em pizza 
+      function drawChart() {
+
+        // Criar tipo data table
+        var data = new google.visualization.DataTable();
+         //no caso do grafico  pizza possui duas colunas, com duas colunas
+        data.addColumn('string', 'Cursos');
+        data.addColumn('number', 'Pedaços');
+         //linhas da tabela
+        data.addRows([
+          ['Administração', 3.1],
+          ['Ciências Contábeis', 2],
+          ['Estatistica', 0.9],
+          ['Economia', 1.5],
+        ]);
+
+        // Opções do chart, podemos alterar varios campos,
+        var options = {'title':'Escolha de Cursos em nossa Faculdade em 2019',
+                       'width':700,
+                       'height':500,
+                       'is3D':true, 
+                        backgroundColor:'#1cade4',
+                                                };
+
+        // Desenho do grafico
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+        chart.draw    (data, options);
+      }
+    </script>
+    <div id="chart_div"></div>
+
+
+        <h4>Eleita pelo MEC por 10 anos seguidos como a melhor faculdade de São Paulo.</h4>
+
+    <br>
+        <table>
+        <br>
+        <br>
+        <div id="social">
+            <h3>Siga-nos nas redes sociais</h3>
+        </div>
+        <tr><td><a href="https://pt-br.facebook.com/"><img src="Facebook.png" alt="Imagem Processando" width="60" height="60"></a></td>
+        <td><a href="https://www.instagram.com/?hl=pt-br"><img src="Instagram.png" alt="Imagem Processando" width="50" height="50"></a></td>
+        </table>
+        <br>
+    </div>
+</body>
+<br>
+
+
+<footer id="rodape">
+<th><img src="logo.png" alt="Imagem Processando" width="500" height="200"></th> 
+    <h3>Faculdade Inovadora ® | Todos direitos reservados</h3>
+</footer>
+    
+</html>
